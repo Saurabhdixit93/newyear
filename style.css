@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/e29ccc95910113.5face8c671539.gif)
+      no-repeat left center,
+    url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/0c0c5895910113.5fb0c66b4bc1d.gif)
+      no-repeat right center;
+  /* background-color: #000; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins";
+  color: #fff;
+  font-size: 10px;
+  background:radial-gradient( #335e7b, #274d6d);
+
+}
+.gif{
+      background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/e29ccc95910113.5face8c671539.gif)
+      no-repeat left center,
+    url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/0c0c5895910113.5fb0c66b4bc1d.gif)
+      no-repeat right center;
+  /* background-color: #000;*/
+    height: 60vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20rem;
+  font-size: 5rem;
+  color: rgb(255, 255, 255) !important;
+  font-family: Times New Roman !important;
+  margin-bottom: 25px !important;
+}
+
+.cd_timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.cd_container .time {
+  font-weight: bold;
+  color: #000 !important;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  border: 4px solid #01dfcc;
+  border-radius: 1rem;
+  margin: 0 1rem;
+}
+
+.cd_container span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ccc;
+}  
+/* Footer Detials */
+.footer{
+    color: #060606;
+    font-size: 1em;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Lucda sans !important;
+    text-align: center;
+   }
+.fthead{
+    box-shadow: 0px 1px 0px 0px rgb(183, 150, 150);
+}
+/* Contact Style */
+.adcolor{
+    color: lightgrey;
+    padding: 3px;
+}
+.contact{
+    margin-top: 5em;
+    text-align: end;
+    justify-content: space-between;
+}
+.contact a{
+    font-family: Arial;
+    color: rgb(164, 161, 161);
+    font-size: 1em;
+    text-decoration: none;
+    margin-inline: 8px;
+    justify-content: space-between;
+}
+.contact a:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px rgb(174, 165, 165);
+    transition: all 0.5s ease-in-out;
+}
